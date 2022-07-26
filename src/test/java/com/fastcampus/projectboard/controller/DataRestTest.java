@@ -13,7 +13,7 @@ import static org.springframework.test.web.servlet.request.MockMvcRequestBuilder
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.content;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
-@DisplayName("Data Api Test")
+@DisplayName("Data Rest Api Test")
 @Transactional
 @AutoConfigureMockMvc
 @SpringBootTest
