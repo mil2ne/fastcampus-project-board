@@ -14,7 +14,7 @@ import static org.springframework.test.web.servlet.request.MockMvcRequestBuilder
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.content;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
-@Disabled("Spring Data REST 통합테스트는 불필요하므로 제외시킴")
+@Disabled("Spring Data REST 통합테스트는 불필요하여 제외")
 @DisplayName("Data Rest Api Test")
 @Transactional
 @AutoConfigureMockMvc
